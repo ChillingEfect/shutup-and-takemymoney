@@ -7,7 +7,6 @@ switch(site) {
     case 'amazon': {
         sugar();
         setTimeout(function() {
-            alert('Shut Up & Take My Money?');
             simulateClick('#add-to-cart-button');
             simulateClick('#one-click-button');
         }, 1e4);
@@ -15,7 +14,6 @@ switch(site) {
     case 'taobao': {
         sugar();
         setTimeout(function() {
-            alert('Shut Up & Take My Money?');
             simulateClick('ul li[data-value]:first-child a');
             simulateClick('.J_LinkBuy');
         }, 5e3);
@@ -23,7 +21,6 @@ switch(site) {
     case 'tmall': {
         sugar();        
         setTimeout(function() {
-            alert('Shut Up & Take My Money?');
             simulateClick('ul li[data-value]:first-child a');
             simulateClick('#J_LinkBuy');
         }, 5e3);
@@ -31,7 +28,6 @@ switch(site) {
     case 'jd': {
         sugar();
         setTimeout(function() {
-            alert('Shut Up & Take My Money?');
             simulateClick('#InitCartUrl');            
         }, 5e3);        
     }
